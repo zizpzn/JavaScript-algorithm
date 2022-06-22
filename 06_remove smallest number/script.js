@@ -35,16 +35,16 @@ function solution(arr) {
 //   return arr;
 // }
 
-function solution(arr) {
-  if (arr.length > 1) {
-    var minNum = Math.min(...arr);
-    var index = arr.indexOf(minNum);
-    arr.splice(index, 1);
-  } else {
-    arr = [-1];
-  }
-  return arr;
-}
+// function solution(arr) {
+//   if (arr.length > 1) {
+//     let minNum = Math.min(...arr);
+//     let index = arr.indexOf(minNum);
+//     arr.splice(index, 1);
+//   } else {
+//     arr = [-1];
+//   }
+//   return arr;
+// }
 
 // function solution(arr) {
 //   if (arr.length === 1) {
