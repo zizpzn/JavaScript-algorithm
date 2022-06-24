@@ -1,18 +1,18 @@
 function solution(arr) {
-  let answer = [];
+  let result = [];
   let min = Math.min.apply(null, arr);
 
   for (let i of arr) {
     if (arr.length === 1) {
-      answer.push(-1);
+      result.push(-1);
       break;
     }
     if (i !== min) {
-      answer.push(i);
+      result.push(i);
     }
   }
 
-  return answer;
+  return result;
 }
 
 // function solution(arr) {

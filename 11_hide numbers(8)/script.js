@@ -1,7 +1,7 @@
 function hide_numbers(phone_number) {
   let result = "";
 
-  for (var i = 0; i < phone_number.length; i++) {
+  for (let i = 0; i < phone_number.length; i++) {
     result += i < phone_number.length - 4 ? "*" : phone_number.charAt(i);
   }
 
